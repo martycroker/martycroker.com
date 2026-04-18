@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact – Marty Croker</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <h1 class="name">Contact</h1>
+        <p class="tagline">For collaborations, questions, or just to say hello.</p>
+        <a href="index.html" class="button">Back to Home</a>
+    </header>
+
+    <section class="intro">
+        <p>
+            If something here resonates — a project, an idea, or a possible collaboration — 
+            you can reach me using the form below. I read everything, even if I can’t always
+            reply straight away.
+        </p>
+    </section>
+
+    <section class="about-preview">
+        <h2>Send a Message</h2>
+
+        <form class="contact-form" action="https://formsubmit.co/martycroker@icloud.com" method="POST">
+            <input type="hidden" name="_next" value="https://martycroker.com/thankyou.html">
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="form-row">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required>
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+            </div>
+
+            <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="button">Send</button>
+        </form>
+    </section>
+
+    <section class="focus">
+        <h2>Direct Email</h2>
+        <p>
+            Prefer email? You can reach me at:
+            <br><br>
+            <strong>martycroker@icloud.com</strong>
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2026 Marty Croker</p>
+    </footer>
+
+</body>
+</html>
